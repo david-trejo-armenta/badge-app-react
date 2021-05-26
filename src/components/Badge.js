@@ -8,7 +8,7 @@ class Badge extends React.Component {
     return <React.Fragment>
         <div className="Badge m-5 flex-column">
             <div className="Badge__header">
-                <img src={HeaderBackground} alt="" />
+                <img src={HeaderBackground} alt="Header Background" />
             </div>
             <div className="Badge__userInfo container mt-5 mb-1">
 

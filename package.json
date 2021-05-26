@@ -16,7 +16,7 @@
   "scripts": {
     "start": "npm-run-all -p client server",
     "client": "react-scripts start",
-    "server": "json-server--port 30001 --watch server/db.jason",
+    "server": "json-server --port 3001 --watch server/db.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

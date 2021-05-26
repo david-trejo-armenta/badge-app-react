@@ -12,23 +12,24 @@ class Badge extends React.Component {
             </div>
             <div className="Badge__userInfo container mt-5 mb-5">
               <div className="Badge__userImage">
-                <img src={ProfilePic} alt="Profile Picture"/>
+                <img src={this.props.picture} alt="Profile Picture"/>
               </div>
-              <h4 className="text-center mt-5"> Isabella Fria</h4>
+              <h4 className="text-center mt-5"> Isabella Fria<i> 666</i></h4>
               <p className="text-center"> Navo York City</p>
             </div>
               <div className="Badge__info container pt-3">
+              
               <div className="row">
                 <div className="col">
-                  <h4 className="text-center fw bold">80 k</h4>
+                  <h4 className="text-center fw bold">666 k</h4>
                   <p className="text-center">Followers</p>
                 </div>
                 <div className="col">
-                  <h4 className="text-center fw bold">803 k</h4>
+                  <h4 className="text-center fw bold">666 k</h4>
                   <p className="text-center">Likes</p>
                 </div>
                 <div className="col">
-                  <h4 className="text-center fw bold">80 </h4>
+                  <h4 className="text-center fw bold">666 </h4>
                   <p className="text-center">Pictures</p>
                 </div>
                 

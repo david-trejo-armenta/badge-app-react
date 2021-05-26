@@ -1,5 +1,7 @@
 .Badge{
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
     min-height: 400px;
     border-radius: 15px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
@@ -58,5 +60,7 @@
 }
 
 i{
-
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(150,150,150);
 }

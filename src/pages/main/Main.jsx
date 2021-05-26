@@ -1,9 +1,9 @@
 import React from "react"
 import "./Main.css"
 import Hero from "../../components/Hero"
-import Button from "../../components/MainButton.jsx"
+import Button from "../../components/MainButton"
 
-const Main = (props) =>{
+const Main = props =>{
     return(
         <React.Fragment>
             <div className="Main">
@@ -18,4 +18,4 @@ const Main = (props) =>{
     )
 }
 
-export default Main
+export default Main;

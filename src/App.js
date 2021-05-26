@@ -1,12 +1,13 @@
 import React from 'react';
 import Layout from "./pages/Layout/Layout"
+import  Main from "./pages/main/Main"
 
 
 function App() {
   return (
     <React.Fragment>
       <Layout>
-        <p>Hello</p>
+        <Main title={"Welcome"}></Main>
       </Layout>
     </React.Fragment>
     

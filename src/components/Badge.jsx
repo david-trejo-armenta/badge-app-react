@@ -1,20 +1,20 @@
-import React from "react";
-import HeaderBackground from '../images/background2.png'
-import ProfilePic from '../images/user.jpg'
+import React, {Component} from "react";
+
 import "./style/Badge.css";
 
-class Badge extends React.Component {
+class Badge extends Component {
   render() {
-    return <React.Fragment>
+    return (
+    <React.Fragment>
         <div className="Badge m-5 flex-column">
             <div className="Badge__header">
-                <img src={this.props.header_picture} alt="Header Background" />
+                <img src={this.props.header_pic} alt="Header_Background" />
             </div>
             <div className="Badge__userInfo container mt-5 mb-5">
               <div className="Badge__userImage">
-                <img src={this.props.profile_picture} alt="Profile Picture"/>
+                <img src={this.props.profile_picture} alt="Profile_Picture"/>
               </div>
-              <h4 className="text-center mt-5"> {this.props.name}<i> {this.props.age}</i></h4>
+              <h4 className="text-center mt-5"> {this.props.name}<i>{this.props.age}</i></h4>
               <p className="text-center"> {this.props.city}</p>
             </div>
               <div className="Badge__info container pt-3">
@@ -42,7 +42,7 @@ class Badge extends React.Component {
 
 
         
-    </React.Fragment>;
+    </React.Fragment>);
   }
 }
 

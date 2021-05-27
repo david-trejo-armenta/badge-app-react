@@ -1,11 +1,13 @@
 import React from "react"
-import "../components/style/MainButton.css"
+import {Link} from "react-router-dom"
+import "./style/MainButton.css"
 
 const Button = props =>{
     return(
         <React.Fragment>
-            <a className="Button" href=""></a>
+            <Link className="Button" to={props.link}>
             <p>{props.contentText}</p>
+            </Link>
 
         </React.Fragment>
     )

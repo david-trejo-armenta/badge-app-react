@@ -1,5 +1,7 @@
 .Header{
+
     display: flex;
+    text-align: center;
     align-content: center;
     height:60px;
     width: 100%;
@@ -9,5 +11,5 @@
 
 .Header img{
     margin: 12px 0 10px 20px;
-    height: 45px;
+    height: 30px;
 }

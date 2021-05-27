@@ -4,6 +4,9 @@
 
 .Hero__imjg{
     width: 100%;
+    top: 55px;
+    padding-top: 40px;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -4,7 +4,6 @@
     justify-content: center;
     text-decoration: none;
     border: 2px solid white;
-    position: absolute;
     border-radius: 40px;
     margin-top: 2em;
     background-color: rgba(133, 133, 133, 0.2);
@@ -15,7 +14,7 @@
     color: white;
     font-size: 1.2em;
     margin: 8px 60px;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .Button:hover{

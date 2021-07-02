@@ -1,10 +1,10 @@
 import React from "react"
 import "./style/Footer.css"
 
-const  Footer = () =>{
+const  Footer = (props) =>{
     return(
     <React.Fragment>
-        <div className="Footer">
+        <div className="Footer" style={props.s}>
             <p> 🐉  Powered by React JS UTCH BIS  🐉 </p>
         </div>
     </React.Fragment>

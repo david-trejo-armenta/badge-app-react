@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Layout from "./pages/Layout/Layout"
 import  Main from "./pages/main/Main"
-import  Error from "./pages/error/Error"
+import  NotFound from "./pages/NotFound/NotFound.jsx"
 import  SignIn from "./pages/signin/SignIn"
 import  Login from "./pages/login/Login"
-
+import Badges from "./pages/Badges/Badges"
+import BadgeDetails from "./components/BadgeDetails"
 import NewBadge from "./pages/NewBadge/NewBadge"
 
 
@@ -21,7 +22,10 @@ function App() {
          <Route exact path = "/login" component={Login}></Route>
          <Route exact path = "/SignIn" component={SignIn}></Route>
          <Route exact path = "/new" component={NewBadge}></Route>
-         <Route component={Error}></Route>
+         <Route exact path  = "/badges" component = {Badges}></Route>
+         <Route exact path = "/:badgeId" component={BadgeDetails}></Route>
+         <Route component={NotFound}></Route>
+
        </Switch>
       </Layout>
     

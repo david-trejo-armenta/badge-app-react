@@ -9,7 +9,7 @@ function Layout(props){
             <div className="Layout">
             <Header></Header>
             {props.children}
-            <Footer></Footer>
+            
             </div>
         </React.Fragment>
     );

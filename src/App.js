@@ -8,7 +8,8 @@ import  Login from "./pages/login/Login"
 import Badges from "./pages/Badges/Badges"
 import BadgeDetails from "./components/BadgeDetails"
 import NewBadge from "./pages/NewBadge/NewBadge"
-
+import Recycle from "./components/recycle"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -18,12 +19,13 @@ function App() {
 <BrowserRouter>
       <Layout>
        <Switch>
-         <Route exact path = "/" component={Main}></Route>
+         <Route exact path = "/main" component={Main}></Route>
          <Route exact path = "/login" component={Login}></Route>
          <Route exact path = "/SignIn" component={SignIn}></Route>
          <Route exact path = "/new" component={NewBadge}></Route>
          <Route exact path  = "/badges" component = {Badges}></Route>
          <Route exact path = "/:badgeId" component={BadgeDetails}></Route>
+         <Route exact path = "/" component={Recycle}></Route>
          <Route component={NotFound}></Route>
 
        </Switch>

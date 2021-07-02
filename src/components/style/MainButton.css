@@ -1,3 +1,4 @@
+
 .Button{
     display: flex;
     align-items: center;
@@ -6,7 +7,8 @@
     border: 2px solid white;
     border-radius: 40px;
     margin-top: 2em;
-    background-color: rgba(133, 133, 133, 0.2);
+    background-color: #056526;
+    width:40%;
 
 }
 
@@ -14,18 +16,22 @@
     color: white;
     font-size: 1.2em;
     margin: 8px 60px;
+    font-weight: bold;
     padding-top: 5px;
+    
+    border: 2px #056526;
 }
 
 .Button:hover{
     background-color: white;
-    border: 2px teal;
+    border: 2px #056526;
     font-weight: bold;
     
 }
 
 .Button:hover p{
     color: teal;
+    border: 2px #056526;
 }
 
 .Button-light{
@@ -44,6 +50,7 @@
     color: #007336;
     font-size: 1.2em;
     margin: 8px 60px;
+    font-weight: bold;
     padding-top: 5px;
 }
 

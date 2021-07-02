@@ -8,7 +8,7 @@
     color: lightgrey;
     background-color: #455258;
 
-    position: relative;
+    position: fixed;
     bottom: 0;
     z-index: 100;
 

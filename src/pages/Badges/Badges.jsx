@@ -62,7 +62,7 @@ class Badges extends React.Component{
         }
         return(
             <React.Fragment>
-                <h1>Friends</h1>
+                {/*<h1>Friends</h1>
                 <div className="Badges__container">
                     <div className="Badges__button">
                         <Button 
@@ -72,7 +72,7 @@ class Badges extends React.Component{
                         >
                         </Button>
                     </div>
-                </div>
+            </div>*/}
                 
                 <BadgesList badges={this.state.data}></BadgesList>
                 <Footer s={this.state.handle_footer}></Footer>
@@ -81,5 +81,5 @@ class Badges extends React.Component{
         );
     }
 }
-
+{}
 export default Badges

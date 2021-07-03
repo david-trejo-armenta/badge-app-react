@@ -58,3 +58,10 @@
     display: flex;
     justify-content: center;
 }
+
+.BadgeList__search-bar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}

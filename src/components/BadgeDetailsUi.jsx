@@ -27,7 +27,7 @@ const BadgeDetailsUi = (props) => {
           </div>
           <div className="col-6 mt-5">
             <h2> Actions </h2>
-            <Link className="btn btn-success mx-3">Edit</Link>
+            <Link className="btn btn-success mx-3" to={`/${badge._id}/edit/`}>Edit</Link>
             <button onClick={props.onOpenModal} className="btn btn-danger mx-3">Delete</button>
             <DeleteBadgeModal
                 isOpen = {props.modalIsOpen}

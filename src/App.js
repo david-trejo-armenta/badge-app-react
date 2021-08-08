@@ -9,7 +9,6 @@ import EditBadge from './pages/EditBadge/EditBadge';
 import Badges from "./pages/Badges/Badges"
 import BadgeDetails from "./components/BadgeDetails"
 import NewBadge from "./pages/NewBadge/NewBadge"
-import Recycle from "./components/recycle"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -27,7 +26,6 @@ function App() {
          <Route exact path  = "/badges" component = {Badges}></Route>
          <Route exact path = "/:badgeId" component={BadgeDetails}></Route>
          <Route exact path = "/:badgeId/edit" component={EditBadge}></Route>
-         <Route exact path = "/" component={Recycle}></Route>
          <Route component={NotFound}></Route>
 
        </Switch>

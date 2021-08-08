@@ -30,6 +30,7 @@ class NewBadge extends React.Component {
       },
     });
   };
+  
   handleSubmit = async (event) => {
     event.preventDefault();
     this.setState({ loading: true, error: null });
